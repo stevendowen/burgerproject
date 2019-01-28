@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
+$myfont: "Ubuntu";
+$fsize: 1.5em;
+
 html{
   height: 100%;
 }
@@ -5,4 +10,28 @@ body{
   height: 100%;
   width: 100%;
   background-color: grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container{
+  background-color: #ffffff;
+  height: 35em;
+  width: 50em;
+  position: relative;
+
+  .top{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .bottom{
+    position: absolute;
+    bottom: 2em;
+    left: 10.5em;
+  }
+  a{
+    font-family: $myfont;
+    font-size: $fsize;
+  }
 }
