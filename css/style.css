@@ -14,7 +14,8 @@ body {
   background-color: #ffffff;
   height: 35em;
   width: 50em;
-  position: relative; }
+  position: relative;
+  border-radius: 1em; }
   .container .top {
     display: flex;
     justify-content: space-between;
@@ -41,4 +42,5 @@ body {
     left: 6em; }
   .container a {
     font-family: "Ubuntu";
-    font-size: 1.5em; }
+    font-size: 1.5em;
+    text-decoration: none; }

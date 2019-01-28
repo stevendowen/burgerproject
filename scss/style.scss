@@ -19,6 +19,7 @@ body{
   height: 35em;
   width: 50em;
   position: relative;
+  border-radius: 1em;
 
   .top{
     display: flex;
@@ -57,5 +58,6 @@ body{
   a{
     font-family: $myfont;
     font-size: $fsize;
+    text-decoration: none;
   }
 }
