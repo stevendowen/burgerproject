@@ -28,9 +28,12 @@ body {
       .container .top .btn .fa-facebook-f {
         color: #3b5998; }
   .container .bottom {
+    width: 40em;
+    display: flex;
+    justify-content: space-evenly;
     position: absolute;
     bottom: 2em;
-    left: 10.5em; }
+    left: 6em; }
   .container a {
     font-family: "Ubuntu";
     font-size: 1.5em; }

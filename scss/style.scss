@@ -19,7 +19,6 @@ body{
   height: 35em;
   width: 50em;
   position: relative;
-  
 
   .top{
     display: flex;
@@ -41,9 +40,12 @@ body{
   }
 
   .bottom{
+    width: 40em;
+    display: flex;
+    justify-content: space-evenly;
     position: absolute;
     bottom: 2em;
-    left: 10.5em;
+    left: 6em;
   }
   a{
     font-family: $myfont;
