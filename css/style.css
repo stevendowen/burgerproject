@@ -18,6 +18,15 @@ body {
   .container .top {
     display: flex;
     justify-content: space-between; }
+    .container .top .btn {
+      width: 4em;
+      display: flex;
+      justify-content: space-evenly;
+      font-size: 1.5em; }
+      .container .top .btn .fa-twitter {
+        color: #00aced; }
+      .container .top .btn .fa-facebook-f {
+        color: #3b5998; }
   .container .bottom {
     position: absolute;
     bottom: 2em;
