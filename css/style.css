@@ -1,10 +1,23 @@
 @import url("https://fonts.googleapis.com/css?family=Ubuntu");
+.title {
+  font-size: 1em;
+  font-family: "Ubuntu";
+  text-decoration: underline;
+  font-size: 3em; }
+
+.menuitems {
+  font-size: 1em;
+  font-family: "Ubuntu";
+  text-decoration: underline; }
+
 html {
   height: 100%; }
 
 body {
   height: 100%;
   width: 100%;
+  padding: 0;
+  margin: 0;
   background-image: url("../burger-hero.jpg");
   display: flex;
   justify-content: center;
@@ -35,6 +48,9 @@ body {
         color: #00aced; }
       .container .top .btn .fa-facebook-f {
         color: #3b5998; }
+  .container .title {
+    display: flex;
+    justify-content: center; }
   .container img {
     width: 50em;
     display: flex;

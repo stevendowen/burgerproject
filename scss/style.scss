@@ -4,6 +4,19 @@ $bcolor: linear-gradient(to top, rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%
 $myfont: "Ubuntu";
 $fsize: 1.5em;
 
+@mixin menuheaders(){
+  font-size: 1em;
+  font-family: $myfont;
+  text-decoration: underline;
+}
+.title{
+  @include menuheaders();
+  font-size: 3em;
+}
+
+.menuitems{
+  @include menuheaders();
+}
 html{
   height: 100%;
 }
@@ -11,6 +24,8 @@ html{
 body{
   height: 100%;
   width: 100%;
+  padding: 0;
+  margin: 0;
   background-image: url("../burger-hero.jpg");
   display: flex;
   justify-content: center;
@@ -53,6 +68,12 @@ body{
         color: #3b5998;
       }
     }
+  }
+
+  .title{
+    display: flex;
+    justify-content: center;
+    color: $;
   }
 
   img{
