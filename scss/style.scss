@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Ubuntu');
 
+$bcolor: linear-gradient(to top, rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%);
 $myfont: "Ubuntu";
 $fsize: 1.5em;
 
@@ -17,7 +18,7 @@ body{
 }
 
 .container{
-  background-color: #ffffff;
+  background: $bcolor;
   height: 35em;
   width: 50em;
   position: relative;
@@ -29,13 +30,17 @@ body{
     margin-top: 1em;
 
     nav{
-      width: 30em;
+      width: 40em;
       display: flex;
       justify-content: space-evenly;
+
+      a{
+        color: #ffffff;
+      }
     }
 
     .btn{
-      width: 4em;
+      width: 5em;
       display: flex;
       justify-content: space-evenly;
       font-size: $fsize;
@@ -58,17 +63,18 @@ body{
   }
 
   .bottom{
-    width: 40em;
+    width: 45em;
     display: flex;
     justify-content: space-evenly;
     position: absolute;
     bottom: 2em;
-    left: 5em;
+    left: 1.5em;
   }
 
   a{
     font-family: $myfont;
     font-size: $fsize;
     text-decoration: none;
+    color: #545454;
   }
 }
