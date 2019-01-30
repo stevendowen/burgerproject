@@ -43,16 +43,19 @@ body {
         color: #00aced; }
       .container .top .btn .fa-facebook-f {
         color: #3b5998; }
+  .container .menu {
+    height: 75%;
+    overflow: auto; }
   .container .title {
     margin: .5em auto;
     display: flex;
     justify-content: center; }
   .container h2 {
-    margin: 0;
+    margin-bottom: 0;
     padding: 0;
     text-decoration: underline;
     font-family: "Ubuntu"; }
-  .container h4 {
+  .container h3, .container h4 {
     margin-bottom: 0;
     font-family: "Ubuntu"; }
   .container p {

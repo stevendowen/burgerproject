@@ -67,6 +67,11 @@ body{
     }
   }
 
+  .menu{
+    height: 75%;
+    overflow: auto;
+  }
+
   .title{
     margin: .5em auto;
     display: flex;
@@ -74,13 +79,13 @@ body{
   }
 
   h2 {
-    margin: 0;
+    margin-bottom: 0;
     padding: 0;
     text-decoration: underline;
     font-family: $myfont;
   }
 
-  h4{
+  h3, h4{
     margin-bottom: 0;
     font-family: $myfont;
   }
