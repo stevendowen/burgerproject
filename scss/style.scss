@@ -5,7 +5,7 @@ $myfont: "Ubuntu";
 $fsize: 1.5em;
 
 @mixin menuheaders(){
-  font-size: 1em;
+  font-size: $fsize;
   font-family: $myfont;
   text-decoration: underline;
 }
@@ -14,9 +14,6 @@ $fsize: 1.5em;
   font-size: 3em;
 }
 
-.menuitems{
-  @include menuheaders();
-}
 html{
   height: 100%;
 }
@@ -71,9 +68,26 @@ body{
   }
 
   .title{
+    margin: .5em auto;
     display: flex;
     justify-content: center;
-    color: $;
+  }
+
+  h2 {
+    margin: 0;
+    padding: 0;
+    text-decoration: underline;
+    font-family: $myfont;
+  }
+
+  h4{
+    margin-bottom: 0;
+    font-family: $myfont;
+  }
+
+  p{
+    margin: 0;
+    font-family: $myfont;
   }
 
   img{

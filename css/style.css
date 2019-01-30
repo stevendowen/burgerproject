@@ -1,14 +1,9 @@
 @import url("https://fonts.googleapis.com/css?family=Ubuntu");
 .title {
-  font-size: 1em;
+  font-size: 1.5em;
   font-family: "Ubuntu";
   text-decoration: underline;
   font-size: 3em; }
-
-.menuitems {
-  font-size: 1em;
-  font-family: "Ubuntu";
-  text-decoration: underline; }
 
 html {
   height: 100%; }
@@ -49,8 +44,20 @@ body {
       .container .top .btn .fa-facebook-f {
         color: #3b5998; }
   .container .title {
+    margin: .5em auto;
     display: flex;
     justify-content: center; }
+  .container h2 {
+    margin: 0;
+    padding: 0;
+    text-decoration: underline;
+    font-family: "Ubuntu"; }
+  .container h4 {
+    margin-bottom: 0;
+    font-family: "Ubuntu"; }
+  .container p {
+    margin: 0;
+    font-family: "Ubuntu"; }
   .container img {
     width: 50em;
     display: flex;
