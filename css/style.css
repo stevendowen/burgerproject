@@ -41,9 +41,6 @@ body {
       position: sticky; }
       .container .top nav a {
         color: #ffffff; }
-        .container .top nav a a:hover {
-          text-decoration: underline;
-          color: #3b5998; }
     .container .top .btn {
       width: 5em;
       display: flex;
@@ -53,7 +50,7 @@ body {
         color: #00aced; }
       .container .top .btn .fa-facebook-f {
         color: #3b5998; }
-  .container .menu {
+  .container .middle {
     height: 80%;
     overflow: auto; }
   .container .title {
@@ -65,24 +62,30 @@ body {
     margin-left: 1em;
     text-decoration: underline;
     font-family: "Ubuntu"; }
+  .container h2 {
+    display: flex;
+    justify-content: center; }
   .container h3 {
     margin-bottom: 0;
     margin-left: 2em;
     font-family: "Ubuntu"; }
   .container p {
-    margin: 0 3em;
+    margin: 1em 3em;
     font-family: "Ubuntu"; }
-  .container img {
-    width: 80em;
+  .container span {
     display: flex;
-    justify-content: center;
-    align-items: center; }
-  .container .bottom {
-    width: 80em;
+    text-align: center;
+    margin: 3em auto;
+    width: 25em; }
+  .container img {
+    width: 100%; }
+  .container footer {
+    width: 100%;
     display: flex;
     justify-content: space-evenly;
     position: absolute;
-    bottom: 2em; }
+    bottom: 2em;
+    flex-wrap: wrap; }
   .container a {
     font-family: "Ubuntu";
     font-size: 1.5em;

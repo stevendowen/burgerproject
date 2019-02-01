@@ -55,10 +55,6 @@ body{
 
       a{
         color: #ffffff;
-        a:hover{
-          text-decoration: underline;
-          color: #3b5998;
-        }
       }
     }
 
@@ -78,7 +74,7 @@ body{
     }
   }
 
-  .menu{
+  .middle{
     height: 80%;
     overflow: auto;
   }
@@ -89,11 +85,16 @@ body{
     justify-content: center;
   }
 
-  h1 {
+  h1{
     margin-bottom: 0;
     margin-left: 1em;
     text-decoration: underline;
     font-family: $myfont;
+  }
+
+  h2{
+    display: flex;
+    justify-content: center;
   }
 
   h3{
@@ -103,23 +104,28 @@ body{
   }
 
   p{
-    margin: 0 3em;
+    margin: 1em 3em;
     font-family: $myfont;
   }
 
-  img{
-    width: 80em;
+  span{
     display: flex;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
+    margin: 3em auto;
+    width: 25em;
   }
 
-  .bottom{
-    width: 80em;
+  img{
+    width: 100%;
+  }
+
+  footer{
+    width: 100%;
     display: flex;
     justify-content: space-evenly;
     position: absolute;
     bottom: 2em;
+    flex-wrap: wrap;
   }
 
   a{
