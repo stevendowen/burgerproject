@@ -52,6 +52,10 @@ body {
   .container .middle {
     height: 80%;
     overflow: auto; }
+  .container .video {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
   .container form {
     height: 64%;
     overflow: auto;
