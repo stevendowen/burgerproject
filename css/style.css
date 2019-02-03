@@ -37,20 +37,22 @@ body {
       width: 40em;
       display: flex;
       justify-content: space-evenly;
-      flex-wrap: wrap;
-      position: sticky; }
+      flex-wrap: wrap; }
       .container .top nav a {
         color: #ffffff; }
-    .container .top .btn {
+    .container .top .social {
       width: 5em;
       display: flex;
       justify-content: space-evenly;
       font-size: 1.5em; }
-      .container .top .btn .fa-twitter {
+      .container .top .social .fa-twitter {
         color: #00aced; }
-      .container .top .btn .fa-facebook-f {
+      .container .top .social .fa-facebook-f {
         color: #3b5998; }
   .container .middle {
+    height: 80%;
+    overflow: auto; }
+  .container form {
     height: 80%;
     overflow: auto; }
   .container .title {
@@ -71,14 +73,32 @@ body {
     font-family: "Ubuntu"; }
   .container p {
     margin: 1em 5em;
-    font-family: "Ubuntu"; }
+    font-family: "Ubuntu";
+    text-indent: 1em; }
   .container span {
     display: flex;
     text-align: center;
     margin: 3em auto;
-    width: 25em; }
+    width: 25em;
+    color: #8F1D2C; }
   .container img {
     width: 100%; }
+  .container .slogan {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Ubuntu";
+    font-size: 1.75em;
+    position: absolute;
+    width: 100%;
+    bottom: 5em; }
+  .container .card-content {
+    background: none;
+    border: none;
+    margin-top: 2em; }
+    .container .card-content button {
+      color: black;
+      font: 400 1em "Ubuntu"; }
   .container footer {
     width: 100%;
     display: flex;

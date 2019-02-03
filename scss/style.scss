@@ -51,14 +51,13 @@ body{
       display: flex;
       justify-content: space-evenly;
       flex-wrap: wrap;
-      position: sticky;
 
       a{
         color: #ffffff;
       }
     }
 
-    .btn{
+    .social{
       width: 5em;
       display: flex;
       justify-content: space-evenly;
@@ -75,6 +74,10 @@ body{
   }
 
   .middle{
+    height: 80%;
+    overflow: auto;
+  }
+  form{
     height: 80%;
     overflow: auto;
   }
@@ -106,6 +109,7 @@ body{
   p{
     margin: 1em 5em;
     font-family: $myfont;
+    text-indent: 1em;
   }
 
   span{
@@ -113,10 +117,33 @@ body{
     text-align: center;
     margin: 3em auto;
     width: 25em;
+    color: #8F1D2C;
   }
 
   img{
     width: 100%;
+  }
+  .slogan{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: $myfont;
+    font-size: 1.75em;
+    position: absolute;
+    width: 100%;
+    bottom: 5em;
+
+  }
+  .card-content{
+    background: none;
+    border: none;
+    margin-top: 2em;
+
+
+    button{
+      color: black;
+      font: 400 1em $myfont;
+    }
   }
 
   footer{
