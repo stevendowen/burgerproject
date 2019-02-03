@@ -53,8 +53,9 @@ body {
     height: 80%;
     overflow: auto; }
   .container form {
-    height: 80%;
-    overflow: auto; }
+    height: 64%;
+    overflow: auto;
+    font-family: "Ubuntu"; }
   .container .title {
     margin: .5em auto;
     display: flex;
