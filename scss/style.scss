@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Ubuntu');
 
-$bcolor: linear-gradient(to top, rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%);
+$bcolor: linear-gradient(to top, rgba(169,169,169,1) 0%,rgba(169,169,169,0) 100%);
 $myfont: "Ubuntu";
 $fsize: 1.5em;
+$fwhite: #FFEFEB;
 
 @mixin menuheaders(){
   font-size: $fsize;
@@ -53,7 +54,7 @@ body{
       flex-wrap: wrap;
 
       a{
-        color: #ffffff;
+        color: $fwhite;
       }
     }
 
@@ -74,7 +75,7 @@ body{
   }
 
   .middle{
-    height: 80%;
+    height: 64%;
     overflow: auto;
   }
   .video{
@@ -92,6 +93,7 @@ body{
     margin: .5em auto;
     display: flex;
     justify-content: center;
+    color: #000000;
   }
 
   h1{
@@ -104,6 +106,8 @@ body{
   h2{
     display: flex;
     justify-content: center;
+    font-family: $myfont;
+    color: $fwhite;
   }
 
   h3{
@@ -137,13 +141,24 @@ body{
     font-size: 1.75em;
     position: absolute;
     width: 100%;
-    bottom: 5em;
+    bottom: 4.5em;
 
   }
   .card-content{
     background: none;
     border: none;
     margin-top: 2em;
+
+
+    .faqs{
+      color: #212529;
+      font: 400 1em $myfont;
+    }
+  }
+
+  button{
+    margin-left: 1em;
+  }
 
   footer{
     width: 100%;
@@ -158,10 +173,10 @@ body{
     font-family: $myfont;
     font-size: $fsize;
     text-decoration: none;
-    color: #545454;
+    color: $fwhite;
   }
 }
 a:hover {
   text-decoration: underline;
-  color: #545454;
+  color: $fwhite;
 }
