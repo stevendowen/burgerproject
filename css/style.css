@@ -103,7 +103,7 @@ body {
     margin-top: 2em; }
     .container .card-content button {
       color: black;
-      font: 400 1em "Ubuntu"; }
+      font: 1em "Ubuntu"; }
   .container footer {
     width: 100%;
     display: flex;
