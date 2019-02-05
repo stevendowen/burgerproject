@@ -74,6 +74,15 @@ body {
     text-align: center;
     overflow: auto;
     height: 64%; }
+  .container .subscribe {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center; }
+    .container .subscribe .sub-content {
+      width: 50%; }
+      .container .subscribe .sub-content .form-row {
+        margin: 0; }
   .container h1 {
     margin-bottom: 0;
     margin-left: 1em;

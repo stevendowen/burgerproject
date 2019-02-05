@@ -106,6 +106,20 @@ body{
     overflow: auto;
     height: 64%;
   }
+  .subscribe{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+    .sub-content{
+      width: 50%;
+
+      .form-row{
+        margin: 0;
+      }
+    }
+  }
 
   h1{
     margin-bottom: 0;
