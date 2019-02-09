@@ -23,7 +23,7 @@ body {
   align-items: center; }
 
 .container {
-  background: linear-gradient(to top, #ffefeb 15%, rgba(255, 239, 235, 0) 100%);
+  background: linear-gradient(to top, #ffefeb 45%, rgba(255, 239, 235, 0) 100%);
   height: 45em;
   width: 80em;
   position: relative;
@@ -105,7 +105,7 @@ body {
     text-align: center;
     margin: 3em auto;
     width: 25em;
-    color: #8F1D2C; }
+    color: #A72422; }
   .container img {
     width: 100%; }
   .container .slogan {
