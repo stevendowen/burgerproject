@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Ubuntu');
 
-$bcolor: linear-gradient(to top, rgba(169,169,169,1) 0%,rgba(169,169,169,0) 100%);
+$bcolor: linear-gradient(to top, rgba(255,239,235,1) 15%,rgba(255,239,235,0) 100%);
 $myfont: "Ubuntu";
 $fsize: 1.5em;
 $fwhite: #FFEFEB;
@@ -132,7 +132,6 @@ body{
     display: flex;
     justify-content: center;
     font-family: $myfont;
-    color: $fwhite;
   }
 
   h3{
@@ -198,10 +197,10 @@ body{
     font-family: $myfont;
     font-size: $fsize;
     text-decoration: none;
-    color: $fwhite;
+    color: black;
   }
 }
 a:hover {
   text-decoration: underline;
-  color: $fwhite;
+  color: black;
 }
