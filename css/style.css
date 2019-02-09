@@ -73,7 +73,8 @@ body {
   .container table {
     text-align: center;
     overflow: auto;
-    height: 64%; }
+    height: 64%;
+    font-family: "Ubuntu"; }
   .container .subscribe {
     width: 100%;
     display: flex;
