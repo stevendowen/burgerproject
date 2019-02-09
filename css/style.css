@@ -122,9 +122,15 @@ body {
     background: none;
     border: none;
     margin-top: 2em; }
+    .container .card-content .card-header {
+      background-color: rgba(0, 0, 0, 0);
+      border-bottom: none; }
+    .container .card-content .card-body {
+      padding: 0; }
     .container .card-content .faqs {
       color: #212529;
-      font: 400 1em "Ubuntu"; }
+      font-family: "Ubuntu";
+      font-size: 1em; }
   .container button {
     margin-left: 1em; }
   .container footer {

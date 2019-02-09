@@ -174,10 +174,18 @@ body{
     border: none;
     margin-top: 2em;
 
+    .card-header{
+      background-color: rgba(0,0,0,0);
+      border-bottom: none;
+    }
+    .card-body{
+      padding: 0;
+    }
 
     .faqs{
       color: #212529;
-      font: 400 1em $myfont;
+      font-family: $myfont;
+      font-size: 1em;
     }
   }
 
